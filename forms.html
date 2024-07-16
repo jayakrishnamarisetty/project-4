@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>forms format</title>
+   <script src="./js_1.js"></script>
+    <style>
+        body {
+            margin: 120px;
+            text-align: center;
+        }
+
+        form {
+            width: 20%;
+            height: 300px;
+            background-color: aqua;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="userForm" onsubmit="JK(event)">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="enter your name" onchange="name1(this.value)" />
+        <br><br>
+        <label>Age</label>
+        <input type="number" id="age" placeholder="enter your age" onchange="age(this.value)" />
+        <br><br>
+        <label>Email</label>
+        <input type="email" id="email" placeholder="enter your email id" onchange="email(this.value)">
+        <br><br>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" value="male" onchange="gender(this.value)" />
+        <label>Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" onchange="gender(this.value)" />
+        <label>Female</label>
+        <br>
+        <input type="radio" name="gender" value="others" onchange="gender(this.value)" />
+        <label>Others</label>
+        <br><br>
+        <label>Skills</label>
+        <input type="checkbox" name="skills" value="c++" onchange="skils(this.value)" />
+        <label>C++</label>
+        <input type="checkbox" name="skills" value="java" onchange="skils(this.value)" />
+        <label>Java</label>
+        <input type="checkbox" name="skills" value="c" onchange="skils(this.value)" />
+        <label>C</label>
+        <br><br>
+        <input type="reset" />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

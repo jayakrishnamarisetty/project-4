@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>task1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                /* background-color: black; */
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+
+            }
+            .parent{
+                width:100%;
+                height:800px;
+                /* background-color: azure; */
+                position: absolute;
+                z-index: 1;
+            }
+            /* .parent img{
+                width:100%;
+                height:100%;
+                opacity: 1;
+            } */
+            .header{
+                width:calc(100% - 20px);
+                height:100px;
+                /* background-color:rgb(91, 63, 63); */
+                /* opacity: 0.4; */
+                overflow: hidden;
+                box-sizing: border-box;
+                margin: 0px 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position:relative;
+                /* background-color: rgb(225, 35, 67); */
+                top:0px;
+                border-bottom: 1px solid aliceblue;
+                filter: contrast(150);
+
+
+                /* box-shadow: 0px 0px 2px solid green; */
+            }
+            .h1{
+                width:80px;
+                height:80px;
+                /* background-color: aliceblue; */
+                position:absolute;
+                margin: 33px;
+                left: 13px;
+                border-radius: 50%;
+                /* border-bottom: 1px solid aliceblue; */
+            }
+            .h1 img{
+                width:100%;
+                height:100%;
+
+            }
+            .h2{
+                width:630px;
+                height:150px;
+                /* background-color: beige; */
+                position: absolute;
+                left:290px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+            a{
+                /* color:white; */
+                text-decoration: none;
+                font-weight: 900;
+            }
+            .h3{
+                width:290px;
+                height:290px;
+                /* border-radius: 50%; */
+                /* background-color: aliceblue; */
+                position: absolute;
+                right:30px;
+            }
+            .h31{
+                width:160px;
+                height:160px;
+                position: absolute;
+                /* background-color: blue; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            i{
+                /* color: white; */
+            }
+            .h32{
+                width:150px;
+                height:150px;
+                position: absolute;
+                left:127px;
+                /* background-color: rgb(18, 166, 75); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">
+                <div class="h1">
+                    <img src="../images/11.png" alt="">
+                </div>
+                <div class="h2">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Menu</a>
+                    <a href="">Products</a>
+                    <a href="">Review</a>
+                    <a href="">Contact</a>
+                    <a href="">Blogs</a>
+
+                </div>
+                <div class="h3">
+                    <div class="h31">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="h32">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h3">
+            <div class="h31">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="h32">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </body>
+</html>

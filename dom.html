@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .j1{
+            width:20%;
+            height:10vh;
+            border:1px solid black;
+            
+        
+        }
+    </style>
+    <script>
+        function jk(){
+             var x =  document.getElementsByClassName("j1")[0];
+            // x.style.backgroundColor="green";
+            
+            x.setAttribute("style",`background-color:green ; box-shadow:2px 2px 10px blue`)            
+            // x.style.boxShadow = "0  0 2px 2px blue  ";
+        }
+        function rug(){
+            var y = document.getElementsByClassName('j1')[0];
+            y.style.backgroundColor= "red";
+        // y.setAttribute("style",`bacground:url(../images/924.avif);`)
+        }
+     
+    </script>
+    
+</head>
+<body>
+    <div class="j1" "></div>
+    <!-- /* <p class="j1">sai</p>
+    <h2 class="j3">rug</h2> */ -->
+    <button onclick="jk()" >click me</button>
+
+    
+</body>
+</html>

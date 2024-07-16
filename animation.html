@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>jk</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100svh;
+
+            }
+            .parent{
+                width: 100px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(16, 255, 255);
+                /* transform: rotate(360deg);
+                transition-duration: 2s;
+                transition-timing-function: linear; */
+                animation: jk 1s linear;
+                
+                
+            }
+            @keyframes jk{
+                from {
+                transform: rotateZ(0deg);
+            }
+            to {
+                transform: rotateZ(360deg);
+            }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+
+        </div>
+    </body>
+</html>
